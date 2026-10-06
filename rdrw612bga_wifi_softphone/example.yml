@@ -1,0 +1,26 @@
+wifi_ipv4_ipv6_echo:
+  boards:
+    rdrw612bga:
+    - -armgcc@debug
+    - -armgcc@release
+    - -iar@debug
+    - -iar@release
+    - -mdk@debug
+    - -mdk@release
+  contents:
+    document:
+      brief: The wifi_ipv4_ipv6_echo demo application demonstrates a TCP or UDP echo
+        demo on the lwIP TCP/IP stack with FreeRTOS. The demo uses the TCP or UDP
+        protocol over both IPv4 and IPv6 and acts as an echo server. The application
+        sends back the received TCP or UDP packets from the PC, which can be used
+        to test whether a TCP or UDP is available.
+      category: wifi_examples
+      example_readme:
+      - examples/wifi_examples/wifi_ipv4_ipv6_echo/readme.md
+      - ${board_root}/${board}/wifi_examples/common/wifi_examples_readme.md
+      - ${board_root}/${board}/wifi_examples/readme_modules.md
+      - ${board_root}/${board}/examples_shared_readme.md
+      name: wifi_ipv4_ipv6_echo${core_id_suffix_name}
+    meta_path: examples/wifi_examples/wifi_ipv4_ipv6_echo
+    project-root-path: boards/${board}/wifi_examples/wifi_ipv4_ipv6_echo/${multicore_foldername}
+  section-type: freestanding_application

@@ -1,0 +1,1 @@
+GEN_CSRCS += _wifi_RGB565A8_38x38.c _call_RGB565A8_97x87.c _settings_RGB565A8_60x40.c _keypad_RGB565A8_115x97.c _call_end_RGB565A8_85x85.c _call_RGB565A8_85x85.c _back_RGB565A8_55x40.c

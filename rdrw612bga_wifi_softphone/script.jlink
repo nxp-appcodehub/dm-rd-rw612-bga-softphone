@@ -1,0 +1,6 @@
+ExitOnError 1
+r
+h
+loadfile C:\Users\nxf93737\Documents\mcu_sdk_vscode\baresip_demo\dm-rd-rw612-bga-softphone\rdrw612bga_wifi_softphone\flash_debug\rdrw612bga_wifi_softphone.hex
+r
+qc
