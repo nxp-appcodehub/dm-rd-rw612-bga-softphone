@@ -1,0 +1,16 @@
+{
+  "version": "25.3",
+  "toolchainPath": "",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "sdk-v2-freestanding",
+  "projectName": "rdrw612bga_wifi_softphone",
+  "sdk": {
+    "version": "26.3.0",
+    "path": "",
+    "boardId": "rdrw612bga",
+    "deviceId": "RW612",
+    "coreId": "cm33"
+  }
+}
